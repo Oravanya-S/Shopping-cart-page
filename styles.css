@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Poppins:wght@200;400;500&family=Sarabun:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Poppins', Arial, sans-serif;;
+}
+
+.size {
+    max-width: 900px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+nav {
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+}
+
+nav a, nav p {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 6px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    padding: 20px 31px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.container > div {
+    width: 410px;
+    /* border: 1px solid rgb(255, 0, 0); */
+}
+
+.box01 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    height: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid silver;
+    box-shadow: 7px 8px 11px -1px rgba(240, 240, 240, 0.82);
+}   
+
+.circle {
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    padding: 2px 6px;
+}
+
+.smallbox1 {
+    background-image: linear-gradient(to bottom right, rgb(236, 150, 122), rgb(236, 236, 129));
+    border-radius: 5px;
+    border: 1px solid silver;
+    color: white;
+    height: 160px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.smallbox2 {
+    color: rgb(108, 108, 108);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 20px; */
+    /* padding: 10px; */
+    font-weight: bold;
+    height: 140px;
+}
+
+
+.box02 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    height: 300px;
+    border: 1px solid silver;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box02 p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.smallbox3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.smallbox4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn {
+    width: 100%;
+    background-color: rgb(28, 238, 168);
+    padding: 8px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.btn2 {
+    background-color: white;
+    width: 130px;
+    color: rgb(28, 238, 168);
+    padding: 8px;
+    border: 1px solid rgb(28, 238, 168);
+    border-radius: 5px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    border: none;
+}
+
+.select {
+    padding-right: 5px;
+}
+
+.bigselect {
+    display: inline;
+    border: 1px solid silver;
+    border-radius: 8px;
+    padding: 4px 8px;
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+  }
